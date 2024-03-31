@@ -1,0 +1,45 @@
+.navbar{
+    background-color: aquamarine;
+    color:crimson;
+    width: 50%;
+    height: 80%;
+    padding-right: 20px;
+    align-items: center; 
+    
+    
+}
+
+.navLinks {
+    display: flex; 
+    justify-content: space-between; 
+    
+}
+
+.navLinks a{
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    align-content: center;
+    background-color: brown;
+    color: chartreuse;
+    
+}
+
+.carro{
+    position: relative;
+}
+
+.placa{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+}
